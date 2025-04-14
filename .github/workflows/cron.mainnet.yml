@@ -4,14 +4,14 @@ on:
     - cron: "*/20 * * * *" # ie. 4:20pm, 4:40pm, 5:00pm ... etc.
   push:
 env:
-  CHAIN_ID: 1
+  CHAIN_ID: 8217
   MIN_PROFIT_THRESHOLD_USD: 1
-  REWARD_RECIPIENT: ''
+  REWARD_RECIPIENT: '0x97d83D7e0ec9CeEFF71dF913Be1904064919e919'
   ERROR_STATE_MAX_GAS_COST_THRESHOLD_USD: 1
-  JSON_RPC_URL: ${{ secrets.ETHEREUM_MAINNET_JSON_RPC_URL }}
+  JSON_RPC_URL: ${{ secrets.JSON_RPC_URL }}
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
-  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-mainnet/ca2acf967a962355b921fd4893306b961e7bc62a/deployments/ethereum/contracts.json'
+  CONTRACT_JSON_URL: 'https://github.com/Luckysaveings/contract_abi/blob/main/contracts.json'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
