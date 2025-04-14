@@ -11,7 +11,7 @@ env:
   JSON_RPC_URL: ${{ secrets.JSON_RPC_URL }}
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
-  CONTRACT_JSON_URL: 'https://github.com/Luckysaveings/contract_abi/blob/main/contracts.json'
+  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/Luckysaveings/contract_abi/main/contracts.json'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
