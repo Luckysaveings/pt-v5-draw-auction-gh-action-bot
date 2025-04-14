@@ -1,4 +1,4 @@
-name: CronJob - Draw Auction Bot - Ethereum Mainnet
+name: CronJob - Draw Auction Bot - Kaia Mainnet
 on:
   schedule:
     - cron: "*/20 * * * *" # ie. 4:20pm, 4:40pm, 5:00pm ... etc.
