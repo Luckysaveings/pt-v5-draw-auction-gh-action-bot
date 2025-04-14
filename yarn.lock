@@ -515,10 +515,10 @@
   resolved "https://registry.npmjs.org/@graphql-typed-document-node/core/-/core-3.2.0.tgz#5f3d96ec6b2354ad6d8a28bf216a1d97b5426861"
   integrity sha512-mB9oAsNCm9aM3/SOv4YtBMqZbYj10R7dkq8byBqxGY/ncFwhf2oQzMV+LCRlWoDSEBJ3COiR1yeDvMtsoOsuFQ==
 
-"@luckysavings/pt-v5-autotasks-library@1.0.8":
-  version "1.0.8"
-  resolved "https://registry.npmjs.org/@luckysavings/pt-v5-autotasks-library/-/pt-v5-autotasks-library-1.0.8.tgz#c40b2696de490153da10cb1a8f68742a50c5325b"
-  integrity sha512-1uKZNz2tfcxSUcsr8fFXj5NlwYmW7p6z27jtEoTeEm9sZjS5WBdCIKrtHDTbr5aa3Oo2AaOB3t7lxlBal332Tw==
+"@luckysavings/pt-v5-autotasks-library@1.0.9":
+  version "1.0.9"
+  resolved "https://registry.npmjs.org/@luckysavings/pt-v5-autotasks-library/-/pt-v5-autotasks-library-1.0.9.tgz#df5b4bf021aad41744fed0bc4304030bde1bd77b"
+  integrity sha512-sjAW9ry0tTXTkG/JlbXuLH/lUB4+RLXb3EfC5Nnh4Zbt24IMCjD0D0j+FFeRAfc9vFzzrZRse1NV9d9wo2rqkg==
   dependencies:
     debug "^4.3.6"
 
