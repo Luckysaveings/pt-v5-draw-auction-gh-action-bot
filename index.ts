@@ -3,7 +3,7 @@ import { BaseProvider } from "@ethersproject/providers";
 import {
   downloadContractsBlob,
   ContractsBlob,
-} from "@generationsoftware/pt-v5-utils-js";
+} from "@luckysavings/pt-v5-utils-js";
 import {
   getProvider,
   instantiateRelayerAccount,
@@ -12,7 +12,7 @@ import {
   DrawAuctionEnvVars,
   DrawAuctionConfig,
   RelayerAccount,
-} from "@generationsoftware/pt-v5-autotasks-library";
+} from "@luckysavings/pt-v5-autotasks-library";
 
 const main = async () => {
   const envVars: DrawAuctionEnvVars = loadDrawAuctionEnvVars();
