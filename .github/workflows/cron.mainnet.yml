@@ -1,7 +1,8 @@
 name: CronJob - Draw Auction Bot - Kaia Mainnet
 on:
   schedule:
-    - cron: "*/20 * * * *" # ie. 4:20pm, 4:40pm, 5:00pm ... etc.
+    - cron: "10 17 * * *"
+    - cron: "20 17 * * *"
   push:
 env:
   CHAIN_ID: 8217
